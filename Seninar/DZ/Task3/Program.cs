@@ -7,12 +7,10 @@ int Number = Convert.ToInt32(Console.ReadLine());
 if (Number ==1)
 {
     Console.WriteLine($"сегодня рабочий день");
-
 }
 if (Number==2)
 {
     Console.WriteLine($"сегодня рабочий день");
-
 }
 if (Number==3) 
 {

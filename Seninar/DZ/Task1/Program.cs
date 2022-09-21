@@ -3,10 +3,11 @@ Console.WriteLine("Введите трехзначное число");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
-int SeconDigit(int number) //метод вывод вророй цифры 
+int SeconDigit(int number) //метод вывод вророй цифры
+ 
 {
     int Dec = (number/10) % 10;
-    
+
     return Dec;
 }
 int a = SeconDigit(number);

@@ -9,5 +9,5 @@ int SeconDigit(int number) //метод вывод вророй цифры
     
     return Dec;
 }
-
-Console.WriteLine ($"Вторая цифра от {number} - {SeconDigit(number)}");
+int a = SeconDigit(number);
+Console.WriteLine ($"Вторая цифра от {number} - {a}");

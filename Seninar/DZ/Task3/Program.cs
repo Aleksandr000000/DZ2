@@ -4,37 +4,37 @@
 Console.Write("Введи число: ");
 int Number = Convert.ToInt32(Console.ReadLine());
 
-if (Number ==1)
+if (Number == 1)
 {
     Console.WriteLine($"сегодня рабочий день");
 }
-if (Number==2)
+if (Number == 2)
 {
     Console.WriteLine($"сегодня рабочий день");
 }
-if (Number==3) 
-{
-    Console.WriteLine($"сегодня рабочий день");
-
-}
-if (Number==4)
+if (Number == 3) 
 {
     Console.WriteLine($"сегодня рабочий день");
 
 }
-if (Number==5)
+if (Number == 4)
+{
+    Console.WriteLine($"сегодня рабочий день");
+
+}
+if (Number == 5)
 {
     Console.WriteLine($"сегодня рабочий день");
 }
-if (Number==6)
+if (Number == 6)
 {
     Console.WriteLine($"сегодня выходной");
 }
-if (Number==7)
+if (Number == 7)
 {
     Console.WriteLine($"сегодня выходной");
 }
-else if (Number>7)
+else if (Number > 7)
 {
     Console.WriteLine($"не верно введенное число");
 }
